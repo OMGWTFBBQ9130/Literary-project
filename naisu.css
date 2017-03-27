@@ -1,0 +1,77 @@
+.answers li {
+    list-style: upper-alpha;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+.quiz li{
+    list-style-type: none
+}
+#results {
+    background: #dddada;
+    color: 000000;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#results:hover {
+    background: #3d91b8;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#categorylist {
+    margin-top: 6px;
+    display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+    display: none;
+}
+
+#closing {
+    display: none;
+    font-style: italic;
+}
+body{
+    background-image: url("img/background mode.jpg");
+    color: red;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li.nav:last-child {
+    border-right: none;
+}
+
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: #111;
+}
